@@ -1,0 +1,442 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#navbarsection{
+    list-style: none;
+   
+}
+#navbarsection li{
+    font-size: 15px;
+    font-weight: 600;   
+    color: black;
+}
+#navbarsection li:hover{
+    color: #ec160e !important;
+}
+.carouselsection img{
+height: 550px;
+}
+.carouselsection{
+    /* border: 5px solid red; */
+    border-top: 5px solid red;
+    border-bottom: 5px solid red;
+}
+.carousel_para{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: row;
+  
+   background-color: red;
+
+
+}
+
+
+
+
+
+
+
+
+/* Star Card image css code */
+
+.box{
+    background: #5da78b;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,.8);
+    overflow: hidden;
+    position: relative;
+}
+.box:before,
+.box:after{
+    content: '';
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    opacity: 0;
+    transform: scaleX(0);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    transition: all 0.5s ease 0s;
+}
+.box:after{
+    border-top: none;
+    border-bottom: none;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;       
+    transform: scaleY(0);
+}
+.box:before,
+.box:after{
+    opacity: 1;
+}
+.box:before{ transform: scaleX(1); }
+.box:after{ transform: scaleY(1); }
+.box img{
+    width: 100%;
+    height: auto;
+    transition: 0.5s;
+}
+.box img{ 
+    width: 100%;
+    height: 300px;
+    opacity: .2;
+    transform: scale(1.2);
+}
+.box .box-content{
+    color: #fff;
+    width: 100%;
+    opacity: 0;
+    transform: translateY(-50%);
+    position: absolute;
+    top: 10%;
+    right: 0;
+    z-index: 2;
+    transition: all 0.5s ease 0s;
+}
+.box .box-content{
+    opacity: 1;
+    top: calc(50% - 25px);
+}
+.box .title{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 0 0 2px;
+}
+.box .post{
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    display: block;
+}
+.box .icon{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    transform: translateY(-50%);
+    position: absolute;
+    right: 0;
+    top: calc(50% + 25px);
+    z-index: 1;
+    transition: all 0.5s ease 0.1s;
+}
+.box .icon{ right: 0; }
+.box .icon li{
+    margin: 0 3px;
+    display: inline-block;
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+}
+.box .icon li:nth-child(2){ transition: all 0.3s ease .2s; }
+.box .icon li{ opacity: 1; }
+.box .icon li a{
+    color: #2d4b3f;
+    background-color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 35px;
+    height: 35px;
+    width: 35px;
+    display: block;
+    transition: all 0.3s ease;
+}
+.box .icon li a{
+    color: #fff;
+    background-color: #2d4b3f;
+}
+@media only screen and (max-width:990px){
+    .box{ margin: 0 0 30px; }
+}
+
+/* End Card image css code */
+
+
+/* Star About css code */
+.aboutsection .row{
+   
+    background-color: #e5332c;
+}
+.aboutsection .main{
+    padding: 30px;
+}
+.aboutsection{
+    position: relative;
+}
+.aboutsection button{
+    margin: 0;
+    position: absolute;
+   margin-top: 20px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.aboutsection h3{
+    margin: auto;
+    width: 50%;
+  
+    
+}
+/* End About css code */
+
+/* End Footer css code */
+.footer{
+    padding: 0%;
+    margin: 0%;
+  margin-bottom: -500px;
+    margin-bottom: 0;
+}
+.footer .main{
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 1px;
+
+}
+.footer .main p{
+    margin-top: 12px;
+}
+
+/* End Footer css code */
+
+
+/* Start Contact css code */
+
+.contactsectwo hr{
+    width: 60px;
+   font-size: bold;
+   margin-top: -20px;
+    border: none;
+    height: 4px;
+    background: #0077b6;
+  
+
+}
+.contact_icons{
+   
+
+}
+.contact_icons i{
+    margin-top: 16px;
+   
+    
+}
+/* End Contact css code */
+
+.bgimagesec{
+    padding: 0px;
+    margin: 0px;
+   background-color: #caf0f8!important;
+  width: 100%;
+  height: 90px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.692);
+  background-attachment: fixed;
+    background-position: center top;
+    background-size: cover;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; 
+  border-top: 4px solid #0077b6;
+}
+
+#bgtext{
+    position: absolute;
+     
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%);
+      color: #000;
+      font-size: 40px;
+      text-transform: uppercase;
+      font-family: Montserrat;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 10px;
+  }
+
+page-title.page-title-layout-centered{
+    padding: 110px 0;
+    text-align: center;
+    position: relative;
+}
+
+.page-title .page-title-background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.page-title .page-title-inner{
+    position: relative;
+    z-index: 1;
+}
+
+.page-title.page-title-layout-centered h1{
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.page-title h1{
+    letter-spacing: 0;
+    margin: 0;
+    display: inline-block;
+    position: relative;
+}
+
+
+
+
+.sectiontwo{
+
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 32px;
+    border: 1px solid white;
+    padding-left: 110px;
+   padding-right: 110px;
+   padding-top:80px;
+   padding-bottom: 130px;
+   
+  }
+  .centered2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 32px;
+    border: 1px solid white;
+   padding-left: 110px;
+   padding-right: 110px;
+   padding-top:80px;
+   padding-bottom: 130px;
+   
+   
+  }
+
+  .clientsection{
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  .navbar-nav{
+    margin-left: 250px;
+  }
+
+  .cl1 .card-body{
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    display: grid;
+  }
+
+  .cl1 .card{
+    margin: 10px;
+    border-radius: 15px;
+  }
+
+  .cl1 .card img{
+    width: 150px;
+    margin: 0px 69px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .cl1 .card-body{
+        margin: 30px;
+    }
+    .carouselsection img{
+        height: auto;
+    }
+    .navbar-nav{
+        margin-left: 0px;
+      }
+      #bgtext{
+        font-size: 30px;
+      }
+
+      .centered{
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 90px;
+        padding-bottom: 90px;
+      }
+      .centered2{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 90px;
+        padding-bottom: 90px;
+      }
+      .sectiontwo2{
+        margin-top: 10px;
+      }
+  }
+
+
+  @media screen and (max-width: 400px) {
+    .centered{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 90px;
+        padding-bottom: 90px;
+      }
+      .centered2{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 90px;
+        padding-bottom: 90px;
+      }
+    .cl1 .card-body{
+        margin: 0px;
+    }
+  }
+
+  @media screen and (max-width: 350px) {
+    .centered{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 90px;
+        padding-bottom: 90px;
+        font-size: 28px;
+      }
+      .centered2{
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 90px;
+        padding-bottom: 90px;
+        font-size: 28px;
+
+      }
+      #bgtext{
+        font-size: 25px;
+      }
+    .cl1 .card-body{
+        margin: -10px -28px;
+    }
+  }
+
+
+  .btn-outline-danger{
+    color: #0077b6;
+    border-color: #0077b6;
+  }

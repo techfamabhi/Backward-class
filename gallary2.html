@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Gallary</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/gallary.css">
+    <!-- <link rel="stylesheet" href="./Css/style2.css"> -->
+    <link rel="stylesheet" href="./dist/simple-lightbox.css">
+
+    <!-- start aos animation link -->
+    <link rel="stylesheet" href="aos_style.css">
+    <link rel="stylesheet" href="./aos-master/demo/css/styles.css">
+    <link rel="stylesheet" href="./aos-master/dist/aos.css">
+    <!-- End aos animation link -->
+    <link rel="stylesheet" href="./css/style.css">
+   
+ <link rel="stylesheet" href="./css/footer.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <div class="container-fluid">
+          <div>
+          <i class="fa fa-phone" style="color: white;">&nbsp;&nbsp;+012 345 6789 
+              <span style="color: white;font-size: 20px;">|</span>
+          </i>
+          <i class="fa fa-envelope" aria-hidden="true" style="color: white;">&nbsp;&nbsp;info@example.com</i>
+      </div>
+      <div>
+      <a href="#" class="fa fa-facebook" ></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-google"></a>
+      <a href="#" class="fa fa-linkedin"></a>
+      <a href="#" class="fa fa-youtube"></a>
+      </div>
+
+      </div>
+    </nav>
+   
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./images/logo.png" alt="" srcset="" class="navlogo">
+      </a>
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="toggler-icon top-bar"></span>
+        <span class="toggler-icon middle-bar"></span>
+        <span class="toggler-icon bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+         
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              About
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li> -->
+
+          <li class="nav-item">
+            <a class="nav-link" href="About.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallary.html">Gallery</a>
+          </li>
+        
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>           
+        </ul>
+    
+      </div>
+    </div>
+  </nav>
+
+
+
+      <div class="section">
+        <div class="product_title">
+          <h3>Gallary</h3>
+        </div>
+        <ul>
+            <li class="list active" data-filter="all">All</li>
+            <li class="list" data-filter="Building">Building Photos</li>
+            <li class="list" data-filter="Computer">Computer Lab</li>
+            <li class="list" data-filter="Cultural">Cultural Activity</li>
+            <li class="list" data-filter="Dance">Dance</li>
+            <li class="list" data-filter="Ground">Ground Activities</li>
+            <li class="list" data-filter="all"><div class="dropdown" id="dropdownMenuButton" data-toggle="dropdown" >More Photos
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton " style="margin: 10px -25px;">
+                  <a class="dropdown-item list" data-filter="Accomodation">Accomodation</a>
+                  <a class="dropdown-item list" data-filter="Dinning">Dinning</a>
+                  <a class="dropdown-item list" data-filter="GeetaPath">GeetaPath & founder</a>
+                  <a class="dropdown-item list" data-filter="Karate">Karate</a>
+                  <a class="dropdown-item list" data-filter="Library">Library</a>
+                  <a class="dropdown-item list" data-filter="Entrance">Main Entrance</a>
+                  <a class="dropdown-item list" data-filter="Meeting">Meeting</a>
+                  <a class="dropdown-item list" data-filter="Prize">Prize</a>
+                  <a class="dropdown-item list" data-filter="Stitching">Stitching</a>
+                  <a class="dropdown-item list" data-filter="Trusties">Trusties Photo</a>
+                  <a class="dropdown-item list" data-filter="Tution">Tution</a>
+                  <a class="dropdown-item list" data-filter="Yoga">Yoga</a>
+                </div>
+              </div></li>
+        </ul>
+        <div class="product">
+            <div class="item-box" data-item="Building"  ><img src="./images/Building Photos/1.JPG"></div>
+            <div class="item-box" data-item="Building"  ><img src="./images/Building Photos/2.JPG"></div>
+            <div class="item-box" data-item="Building"  ><img src="./images/Building Photos/3.JPG"></div>
+            <div class="item-box" data-item="Building"  ><img src="./images/Building Photos/4.JPG"></div>
+            <div class="item-box" data-item="Building"  ><img src="./images/Building Photos/5.JPG"></div>
+            <div class="item-box" data-item="Building"  ><img src="./images/Building Photos/6.JPG"></div>
+            <div class="item-box" data-item="Computer"  ><img src="./images/Computer Lab/1.JPG"></div>
+            <div class="item-box" data-item="Computer"  ><img src="./images/Computer Lab/2.JPG"></div>
+            <div class="item-box" data-item="Computer"  ><img src="./images/Computer Lab/3.JPG"></div>
+            <div class="item-box" data-item="Computer"  ><img src="./images/Computer Lab/4.JPG"></div>
+            <div class="item-box" data-item="Cultural"  ><img src="./images/Cultural Activity/1.JPG"></div>
+            <div class="item-box" data-item="Cultural"  ><img src="./images/Cultural Activity/2.JPG"></div>
+            <div class="item-box" data-item="Cultural"  ><img src="./images/Cultural Activity/3.JPG"></div>
+            <div class="item-box" data-item="Cultural"  ><img src="./images/Cultural Activity/4.JPG"></div>
+            <div class="item-box" data-item="Cultural"  ><img src="./images/Cultural Activity/5.JPG"></div>
+            <div class="item-box" data-item="Cultural"  ><img src="./images/Cultural Activity/6.JPG"></div>
+            <div class="item-box" data-item="Dance"  ><img src="./images/Dance/1.JPG"></div>
+            <div class="item-box" data-item="Dance"  ><img src="./images/Dance/2.JPG"></div>
+            <div class="item-box" data-item="Dance"  ><img src="./images/Dance/3.JPG"></div>
+            <div class="item-box" data-item="Dance"  ><img src="./images/Dance/4.JPG"></div>
+            <div class="item-box" data-item="Dance"  ><img src="./images/Dance/5.JPG"></div>
+            <div class="item-box" data-item="Dance"  ><img src="./images/Dance/6.JPG"></div>
+            <div class="item-box" data-item="Dance"  ><img src="./images/Dance/7.JPG"></div>
+            <div class="item-box" data-item="Dance"  ><img src="./images/Dance/8.JPG"></div>
+            <div class="item-box" data-item="Ground"  ><img src="./images/Ground Activies/1.JPG"></div>
+            <div class="item-box" data-item="Ground"  ><img src="./images/Ground Activies/2.JPG"></div>
+            <div class="item-box" data-item="Ground"  ><img src="./images/Ground Activies/3.JPG"></div>
+            <div class="item-box" data-item="Ground"  ><img src="./images/Ground Activies/4.JPG"></div>
+            <div class="item-box" data-item="Ground"  ><img src="./images/Ground Activies/5.JPG"></div>
+            <div class="item-box" data-item="Ground"  ><img src="./images/Ground Activies/6.JPG"></div>
+            <div class="item-box" data-item="Ground"  ><img src="./images/Ground Activies/7.JPG"></div>
+            <div class="item-box" data-item="Accomodation"   ><img src="./images/accomodation/1.JPG"></div>
+            <div class="item-box" data-item="Accomodation"   ><img src="./images/accomodation/2.JPG"></div>
+            <div class="item-box" data-item="Accomodation"   ><img src="./images/accomodation/3.JPG"></div>
+            <div class="item-box" data-item="Accomodation"   ><img src="./images/accomodation/4.JPG"></div>
+            <div class="item-box" data-item="Dinning"   ><img src="./images/Dinning/1.JPG"></div>
+            <div class="item-box" data-item="Dinning"   ><img src="./images/Dinning/2.JPG"></div>
+            <div class="item-box" data-item="Dinning"   ><img src="./images/Dinning/3.JPG"></div>
+            <div class="item-box" data-item="Dinning"   ><img src="./images/Dinning/4.JPG"></div>
+            <div class="item-box" data-item="Dinning"   ><img src="./images/Dinning/5.JPG"></div>
+            <div class="item-box" data-item="Dinning"   ><img src="./images/Dinning/6.JPG"></div>
+            <div class="item-box" data-item="GeetaPath"   ><img src="./images/GeetaPath & founder/1.JPG"></div>
+            <div class="item-box" data-item="GeetaPath"   ><img src="./images/GeetaPath & founder/2.JPG"></div>
+            <div class="item-box" data-item="GeetaPath"   ><img src="./images/GeetaPath & founder/3.JPG"></div>
+            <div class="item-box" data-item="GeetaPath"   ><img src="./images/GeetaPath & founder/4.JPG"></div>
+            <div class="item-box" data-item="GeetaPath"   ><img src="./images/GeetaPath & founder/5.JPG"></div>
+            <div class="item-box" data-item="Karate"   ><img src="./images/karate/1.JPG"></div>
+            <div class="item-box" data-item="Karate"   ><img src="./images/karate/2.JPG"></div>
+            <div class="item-box" data-item="Karate"   ><img src="./images/karate/3.JPG"></div>
+            <div class="item-box" data-item="Library"   ><img src="./images/Library/1.JPG"></div>
+            <div class="item-box" data-item="Library"   ><img src="./images/Library/2.JPG"></div>
+            <div class="item-box" data-item="Library"   ><img src="./images/Library/3.JPG"></div>
+            <div class="item-box" data-item="Entrance"   ><img src="./images/Main Entrance/1.JPG"></div>
+            <div class="item-box" data-item="Entrance"   ><img src="./images/Main Entrance/2.JPG"></div>
+            <div class="item-box" data-item="Meeting"   ><img src="./images/Meeting/1.JPG"></div>
+            <div class="item-box" data-item="Meeting"   ><img src="./images/Meeting/2.JPG"></div>
+            <div class="item-box" data-item="Prize"   ><img src="./images/Prize/1.JPG"></div>
+            <div class="item-box" data-item="Prize"   ><img src="./images/Prize/2.JPG"></div>
+            <div class="item-box" data-item="Stitching"   ><img src="./images/Stitching/1.jpg"></div>
+            <div class="item-box" data-item="Stitching"   ><img src="./images/Stitching/2.jpg"></div>
+            <div class="item-box" data-item="Stitching"   ><img src="./images/Stitching/3.jpg"></div>
+            <div class="item-box" data-item="Trusties"   ><img src="./images/Trusties Photo/1.jpg"></div>
+            <div class="item-box" data-item="Trusties"   ><img src="./images/Trusties Photo/2.jpg"></div>
+            <div class="item-box" data-item="Tution"   ><img src="./images/Tution/1.jpg"></div>
+            <div class="item-box" data-item="Tution"   ><img src="./images/Tution/2.jpg"></div>
+            <div class="item-box" data-item="Tution"   ><img src="./images/Tution/3.jpg"></div>
+            <div class="item-box" data-item="Tution"   ><img src="./images/Tution/4.jpg"></div>
+            <div class="item-box" data-item="Yoga"   ><img src="./images/Yoga/1.jpg"></div>
+            <div class="item-box" data-item="Yoga"   ><img src="./images/Yoga/2.jpg"></div>
+            <div class="item-box" data-item="Yoga"   ><img src="./images/Yoga/3.jpg"></div>
+            <div class="item-box" data-item="Yoga"   ><img src="./images/Yoga/4.jpg"></div>
+            <div class="item-box" data-item="Yoga"   ><img src="./images/Yoga/5.jpg"></div>
+            <div class="item-box" data-item="Yoga"   ><img src="./images/Yoga/6.jpg"></div>
+        </div>
+    </div>
+
+
+
+
+<!-- Start Footer Section -->
+<section id="footer">
+  <div class="container">
+    <div class="row footermain">    
+      <div class="col-md-3" style="margin-top: 80px;">
+        <div class="d-flex justify-content-start">
+        <i class="fa fa-building" style="font-size:25px;color: #0077b6;"></i>
+        <h4 class="ml-2" style="color: #0077b6;"><b>GET IN TOUCH</b></h4> 
+      </div>
+      <span class="">Far far away, behind the word mountains, far from the countries.</span>
+    
+<!-- Add font awesome icons -->
+<div class="mt-3">
+ 
+  <img src="./images/scanner.jpg" alt="" srcset="" style="width: 130px;margin-left: 30px;">
+</div>
+      </div>
+      <div class="col-md-3" style="margin-top: 80px;width: 240px;">
+        <h4 class="footer-h4"><b>LINKS</b></h4>
+        <div>
+          <div class="d-flex justify-content-start ">
+            <li id="footer_li"> <i class="fa fa-angle-right" style="font-size:24px;color: #2F3264;"></i>
+             <span><b>HOME</b></span>
+             </li>
+           </div>
+           <div class="d-flex justify-content-start ">
+            <li id="footer_li"> <i class="fa fa-angle-right" style="font-size:24px;color: #2F3264;"></i>
+             <span><b>About</b></span>
+             </li>
+           </div>
+           <div class="d-flex justify-content-start ">
+            <li id="footer_li"> <i class="fa fa-angle-right" style="font-size:24px;color: #2F3264;"></i>
+             <span><b>Services</b></span>
+             </li>
+           </div>
+           
+
+           <div class="d-flex justify-content-start ">
+            <li id="footer_li"> <i class="fa fa-angle-right" style="font-size:24px;color: #2F3264;"></i>
+             <span><b>People  Corner</b></span>
+             </li>
+           </div>
+
+           <div class="d-flex justify-content-start ">
+            <li id="footer_li"> <i class="fa fa-angle-right" style="font-size:24px;color: #2F3264;"></i>
+             <span><b>Contact</b></span>
+             </li>
+           </div>
+          
+        </div> 
+      </div>
+     
+
+      <div class="col-md-3" style="margin-top: 80px;">
+     
+        <h4 class="footer-h4"><b>SERVICES</b></h4>
+        <div>
+          <div class="d-flex justify-content-start ">
+            <li id="footer_li"> <i class="fa fa-angle-right" style="font-size:24px;color: #2F3264;"></i>
+             <span><b>Supply Chain Solutions</b></span>
+             </li>
+           </div>
+          <div class="d-flex justify-content-start ">
+            <li id="footer_li"> <i class="fa fa-angle-right" style="font-size:24px;color: #2F3264;"></i>
+             <span><b>Warehousing</b></span>
+             </li>
+           </div>
+           <div class="d-flex justify-content-start ">
+            <li id="footer_li"> <i class="fa fa-angle-right" style="font-size:24px;color: #2F3264;"></i>
+             <span><b>Transportation</b></span>
+             </li>
+           </div>
+           <div class="d-flex justify-content-start ">
+            <li id="footer_li"> <i class="fa fa-angle-right" style="font-size:24px;color: #2F3264;"></i>
+             <span><b>Liquid Transportation</b></span>
+             </li>
+           </div>
+           <div class="d-flex justify-content-start ">
+            <li id="footer_li"> <i class="fa fa-angle-right" style="font-size:24px;color: #2F3264;"></i>
+             <span><b>Freight Forwarding</b></span>
+             </li>
+           </div>
+           
+
+        </div> 
+      </div>
+     
+
+      
+      <div class="col-md-3" style="margin-top: 80px;">
+        <h4 class="footer-h4 mb-4" ><b>HAVE A QUESTIONS?</b></h4>
+        <div>
+          <div class="d-flex justify-content-start" style="margin-left: 25px !important">
+            <li id="footer_li"> <i class='fas fa-map-marker-alt' style='font-size:24px;color: #0077b6;'></i>
+
+             <span class="ml-2">&nbsp;&nbsp;&nbsp;123 Street, New York, USA<br> <span class="ml-4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;San Francisco, California, USA</span></span>
+             </li>
+           </div>
+           <div class="d-flex justify-content-start " style="margin-top: 15px !important;margin-left: 25px !important">
+            <li id="footer_li"> <i class="fas fa-phone-alt"  style='font-size:24px;color: #0077b6;'></i>
+
+             <span class="ml-2">&nbsp;+1 234 456 78910</span>
+             </li>
+           </div>
+           <div class="d-flex justify-content-start " style="margin-top: 20px !important;margin-left: 25px !important">
+            <li id="footer_li"><i class="fa fa-envelope" style='font-size:24px;color: #0077b6;'></i>
+             <span class="ml-2">info@example.com</span>
+             </li>
+           </div>
+           <div class="d-flex justify-content-start " style="margin-top: 15px !important;margin-left: 33px !important">
+            <li id="footer_li"> 
+
+              <i class="fab fa-facebook-square" style="font-size: 33px;color: #0077b6;"></i>
+              <i class="fab fa-twitter-square"  style="font-size: 33px;color: #0077b6;"></i>
+              <i class="fab fa-instagram-square"  style="font-size: 33px;color: #0077b6;"></i>
+   
+             </li>
+           </div>
+          
+        </div> 
+      </div>
+     
+
+      
+
+
+      
+   
+  </div>
+</div>
+
+</section>
+
+<!-- End Footer Section -->
+
+      <script>
+        const list = document.querySelectorAll('.list')
+        const itemBox = document.querySelectorAll('.item-box')
+
+        list.forEach((elem)=>{
+            elem.addEventListener('click',function(){
+                list.forEach((elem)=>{
+                    elem.classList.remove('active');
+                });
+                this.classList.add('active');
+
+                let value = this.getAttribute('data-filter');
+                itemBox.forEach(element=>{
+                    element.classList.add('hide');
+                    if(element.getAttribute('data-item') == value || value == "all"){
+                        element.classList.remove('hide');
+                    }
+                })
+
+            })
+
+        })
+
+      </script>
+
+      <script src="./dist/simple-lightbox.js"></script>
+        <script>
+            (function() {
+                var $gallery = new SimpleLightbox('.gallery a', {});
+            })();
+        </script>
+
+
+        
+<script src="./aos-master/src/js/aos.js "></script>
+<script src="./aos-master/dist/aos.js "></script>
+<script>
+    AOS.init({
+        duration: 1000
+    });
+</script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
